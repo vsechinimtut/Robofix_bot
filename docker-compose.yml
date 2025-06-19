@@ -1,8 +1,17 @@
 version: '3.8'
+
 services:
   bot:
     build: .
     restart: unless-stopped
-    env_file: .env  # Загрузка переменных из файла
+    env_file: .env
     volumes:
-      - .:/app
+      - ./photos:/app/photos
+      - ./stickers:/app/stickers
+      - ./pdf_receipts:/app/pdf_receipts
+      - ./credentials.json:/app/credentials.json
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
