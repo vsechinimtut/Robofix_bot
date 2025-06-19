@@ -1,0 +1,1520 @@
+2025-06-13 16:53:38,219 - __main__ - ERROR - Ошибка подключения к Google Sheets: name 'config' is not defined
+2025-06-13 16:55:46,340 - __main__ - INFO - Успешное подключение к Google Sheets
+2025-06-13 16:55:46,352 - __main__ - INFO - Запуск бота...
+2025-06-13 16:55:46,503 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:55:46,511 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:55:46,567 - __main__ - ERROR - Отсутствуют необходимые столбцы в таблице
+2025-06-13 16:55:49,567 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:55:49,569 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:55:52,618 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:55:52,625 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:55:55,679 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:55:55,682 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:55:58,727 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:55:58,728 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:01,779 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:01,784 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:04,840 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:04,842 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:07,889 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:07,892 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:10,940 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:10,942 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:13,986 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:13,989 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:17,037 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:17,040 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:20,091 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:20,096 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:23,148 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:23,153 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:26,209 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:26,216 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:29,268 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:29,272 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:32,328 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:32,333 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:35,382 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:35,384 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:38,429 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:38,431 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:41,478 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:41,487 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:44,533 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:44,536 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:47,402 - __main__ - ERROR - Отсутствуют необходимые столбцы в таблице
+2025-06-13 16:56:47,579 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:47,580 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:50,628 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:50,632 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:53,681 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:53,683 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:56,730 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:56,735 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:56:59,785 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:56:59,786 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:02,830 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:02,831 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:05,877 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:05,878 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:08,927 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:08,929 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:11,971 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:11,972 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:15,018 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:15,019 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:18,065 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:18,067 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:21,117 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:21,119 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:24,162 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:24,164 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:27,210 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:27,216 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:30,268 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:30,268 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:33,313 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:33,322 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:36,368 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:36,371 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:39,416 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:39,420 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:42,475 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:42,479 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:45,525 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:45,528 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:48,260 - __main__ - ERROR - Отсутствуют необходимые столбцы в таблице
+2025-06-13 16:57:48,576 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:48,580 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:51,644 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:51,647 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:54,706 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:54,710 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:57:57,758 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:57:57,763 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:00,812 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:00,817 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:03,866 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:03,869 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:06,918 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:06,921 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:10,005 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:10,008 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:13,056 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:13,060 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:16,109 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:16,113 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:19,159 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:19,162 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:22,215 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:22,217 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:25,271 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:25,274 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:28,323 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:28,327 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:31,381 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:31,383 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:34,433 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:34,435 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:37,481 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:37,484 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:40,534 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:40,537 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:43,593 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:43,595 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:58:57,251 - __main__ - INFO - Запуск бота...
+2025-06-13 16:58:57,434 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:58:57,447 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:59:00,492 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:59:00,497 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:59:03,549 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:59:03,553 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+
+2025-06-13 16:59:49,233 - __main__ - INFO - Запуск бота...
+2025-06-13 16:59:49,364 - TeleBot - ERROR - Infinity polling exception: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+2025-06-13 16:59:49,370 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 955, in infinity_polling
+    self.polling(non_stop=True, timeout=timeout, long_polling_timeout=long_polling_timeout,
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1040, in polling
+    logger.info('Starting your bot with username: [@%s]', self.user.username)
+                                                          ^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 273, in user
+    self._user = self.get_me()
+                 ^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\__init__.py", line 1236, in get_me
+    result = apihelper.get_me(self.token)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 196, in get_me
+    return _make_request(token, method_url)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 162, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\oleg_\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\telebot\apihelper.py", line 189, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 401. Description: Unauthorized
+

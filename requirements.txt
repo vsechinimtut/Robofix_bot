@@ -1,0 +1,10 @@
+cat > requirements.txt <<'EOF'
+pyTelegramBotAPI==4.12.0
+python-dotenv==1.0.0
+gspread==5.7.0
+oauth2client==4.1.3
+Pillow==9.5.0
+qrcode==7.4.2
+reportlab==4.1.0
+yadisk==1.3.1
+EOF

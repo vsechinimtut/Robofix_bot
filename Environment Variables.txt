@@ -1,0 +1,8 @@
+ SECRET_TOKEN = HKWRX7-_mSPmB5CKBaxCZQ
+
+
+
+curl -X POST \
+"https://api.telegram.org/bot8128440951:AAHhEw04ORPqLmG343wzqUN6dYmvS3DD9Rk/setWebhook?\
+url=https://robofix-bot.onrender.com/8128440951:AAHhEw04ORPqLmG343wzqUN6dYmvS3DD9Rk&\
+secret_token=HKWRX7-_mSPmB5CKBaxCZQ"
