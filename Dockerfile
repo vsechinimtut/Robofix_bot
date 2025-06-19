@@ -1,45 +1,23 @@
-<<<<<<< HEAD
-# Используем официальный Python образ
 FROM python:3.9-slim
 
-# Устанавливаем рабочую директорию
 WORKDIR /app
 
-# Копируем файлы проекта в контейнер
+# Установка зависимостей для работы с PDF и изображениями
+RUN apt-get update && apt-get install -y \
+    gcc \
+    python3-dev \
+    libjpeg-dev \
+    zlib1g-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Копируем зависимости отдельно для кэширования
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Копируем весь проект
 COPY . .
 
-# Устанавливаем зависимости
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
+# Создаем необходимые директории
+RUN mkdir -p photos stickers pdf_receipts
 
-# Запускаем бота
 CMD ["python", "bot.py"]
-=======
-# Используем официальный Python образ
-FROM python:3.9-slim
-
-# Устанавливаем рабочую директорию
-WORKDIR /app
-
-# Копируем файлы проекта в контейнер
-COPY . .
-
-# Устанавливаем зависимости
-RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
-
-# Устанавливаем переменные окружения для работы с dotenv
-ENV PYTHONUNBUFFERED=1
-ENV BOT_TOKEN=$BOT_TOKEN
-ENV MASTER_ID=$MASTER_ID
-ENV MASTER_PHONE=$MASTER_PHONE
-ENV SPREADSHEET_URL=$SPREADSHEET_URL
-ENV SPREADSHEET_NAME=$SPREADSHEET_NAME
-ENV CHANNEL_USERNAME=$CHANNEL_USERNAME
-ENV CREDENTIALS_FILE=$CREDENTIALS_FILE
-ENV SECRET_TOKEN=$SECRET_TOKEN
-ENV RENDER_SERVICE_NAME=$RENDER_SERVICE_NAME
-
-# Запускаем бота
-CMD ["python", "bot.py"]
->>>>>>> 7e6fef3c641a57c352e42509d55be631f3e6158f
